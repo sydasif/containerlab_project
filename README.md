@@ -25,7 +25,7 @@ This project provides a set of container-based network lab topologies using `con
 ## Usage
 
 1. **Install Containerlab**
-   - Follow instructions at https://containerlab.dev/install/
+   - Follow instructions at https://containerlab.dev/install/#install-script
 
 2. **Deploy a Topology**
    - Example: `containerlab deploy -t cisco_02.clab.yml`
