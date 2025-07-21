@@ -20,6 +20,8 @@ This project provides a set of container-based network lab topologies using `con
   - S1, S2: Cisco IOL Layer 2 switches
   - Various links between devices
 
+![lab](/screenshot.png)
+
 ## Usage
 
 1. **Install Containerlab**
