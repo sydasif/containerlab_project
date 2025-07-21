@@ -1,6 +1,6 @@
 # Cisco Lab Project
 
-This project provides a set of container-based network lab topologies using [Containerlab](https://containerlab.dev/). It is designed for network engineers and learners to simulate, test, and automate network scenarios with Cisco IOS, IOSvL2, and Arista cEOS devices.
+This project provides a set of container-based network lab topologies using `containerlab`. It is designed for network engineers and learners to simulate, test, and automate network scenarios with Cisco IOS, IOSvL2, and Arista cEOS devices.
 
 ## Project Structure
 
@@ -39,7 +39,7 @@ This project provides a set of container-based network lab topologies using [Con
 ## References
 - [Containerlab Documentation](https://containerlab.dev/)
 - [Cisco IOL Images](https://github.com/vrnetlab/vrnetlab)
-- [Arista cEOS Images](https://www.arista.com/en/products/software/cEOS)
+- [Arista cEOS Images](https://www.arista.com/en/)
 
 ## License
 This project is for educational and testing purposes only. Use Cisco and Arista images in accordance with their respective licenses.
