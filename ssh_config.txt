@@ -1,0 +1,11 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+
+Host clab-cisco_lab_02-D1
+    HostName 172.20.20.4
+    KexAlgorithms +diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+    HostKeyAlgorithms +ssh-rsa
+
+Host clab-cisco_lab_02-R1
+    HostName 172.20.20.2
+    KexAlgorithms +diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+    HostKeyAlgorithms +ssh-rsa
