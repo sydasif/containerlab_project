@@ -10,9 +10,6 @@ This project provides a set of container-based network lab topologies using `con
 
 ## Topologies
 
-### Arista cEOS Topology (`ceos.clab.yaml`)
-- Two cEOS nodes (ceos1, ceos2) connected via eth1.
-
 ### Cisco Lab Topologies
 - **cisco.clab.yml** and **cisco_02.clab.yml** define labs with:
   - R1: Cisco IOSv router
@@ -29,6 +26,7 @@ This project provides a set of container-based network lab topologies using `con
 
 2. **Deploy a Topology**
    - Example: `containerlab deploy -t cisco_02.clab.yml`
+   - It will pull images from [Docker Hub](https://hub.docker.com/u/asifsyd)
 
 ## Credentials
 - Default username/password for devices: `admin/admin`
