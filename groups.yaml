@@ -1,0 +1,7 @@
+# groups.yaml
+---
+iol:
+  platform: cisco_ios
+
+iosv:
+  platform: cisco_ios

@@ -1,0 +1,18 @@
+# hosts.yaml
+---
+S1:
+  hostname: 172.100.100.13
+  groups:
+    - iol
+S2:
+  hostname: 172.100.100.14
+  groups:
+    - iol
+D1:
+  hostname: 172.100.100.12
+  groups:
+    - iosv
+R1:
+  hostname: 172.100.100.11
+  groups:
+    - iosv

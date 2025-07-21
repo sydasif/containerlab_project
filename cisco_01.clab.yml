@@ -1,26 +1,31 @@
 ---
-name: cisco_lab_01
+name: cisco_lab
+prefix: ""
+
+mgmt:
+  network: statics
+  ipv4-subnet: 172.100.100.0/24
 
 topology:
   nodes:
     R1:
       kind: linux
       image: vrnetlab/cisco_vios:15.9.3M6
+      mgmt-ipv4: 172.100.100.11
     D1:
       kind: linux
       image: vrnetlab/cisco_viosl2:15.2
+      mgmt-ipv4: 172.100.100.12
     S1:
       kind: cisco_iol
       image: vrnetlab/cisco_iol:l2-17.12.01
+      mgmt-ipv4: 172.100.100.13
       type: l2
-      labels:
-        graph-icon: switch
     S2:
       kind: cisco_iol
       image: vrnetlab/cisco_iol:l2-17.12.01
+      mgmt-ipv4: 172.100.100.14
       type: l2
-      labels:
-        graph-icon: switch
 
   links:
     - endpoints: [R1:eth1, D1:eth1]
