@@ -1,0 +1,28 @@
+---
+name: cisco_lab_01
+
+topology:
+  nodes:
+    R1:
+      kind: linux
+      image: vrnetlab/cisco_vios:15.9.3M6
+    D1:
+      kind: linux
+      image: vrnetlab/cisco_viosl2:15.2
+    S1:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:l2-17.12.01
+      type: l2
+      labels:
+        graph-icon: switch
+    S2:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:l2-17.12.01
+      type: l2
+      labels:
+        graph-icon: switch
+
+  links:
+    - endpoints: [R1:eth1, D1:eth1]
+    - endpoints: [D1:eth2, S1:Ethernet0/1]
+    - endpoints: [D1:eth3, S2:Ethernet0/2]
