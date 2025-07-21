@@ -4,14 +4,13 @@ This project provides a set of container-based network lab topologies using `con
 
 ## Project Structure
 
-- **ceos.clab.yaml**: Arista cEOS topology definition.
-- **cisco.clab.yml**: Cisco lab topology (version 1) definition.
-- **cisco_02.clab.yml**: Cisco lab topology (version 2) definition.
+- **cisco-01.clab.yml**: Cisco lab topology `(vrnetlab version)` definition.
+- **cisco_02.clab.yml**: Cisco lab topology `(asifsyd version)` definition.
 
 ## Topologies
 
 ### Cisco Lab Topologies
-- **cisco.clab.yml** and **cisco_02.clab.yml** define labs with:
+- **cisco_01.clab.yml** and **cisco_02.clab.yml** define labs with:
   - R1: Cisco IOSv router
   - D1: Cisco IOSvL2 device
   - S1, S2: Cisco IOL Layer 2 switches
